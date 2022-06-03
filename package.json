@@ -1,0 +1,23 @@
+{
+  "name": "vue-loader-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "npx webpack-dev-server --config demo1/webpack.config.js",
+    "dev2": "npx webpack-dev-server --config demo2/webpack.config.js",
+    "dev3": "npx webpack-dev-server --config demo3/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
